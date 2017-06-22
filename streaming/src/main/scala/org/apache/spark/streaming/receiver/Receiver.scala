@@ -42,7 +42,7 @@ import org.apache.spark.storage.StorageLevel
  *          // Setup stuff (start threads, open sockets, etc.) to start receiving data.
  *          // Must start new thread to receive data, as onStart() must be non-blocking.
  *
- *          // Call store(...) in those threads to store received data into Spark's memory.
+ *          // Call store(...) in those threads to store received data into Spark's memory.//接收的数据存储在内存里面
  *
  *          // Call stop(...), restart(...) or reportError(...) on any thread based on how
  *          // different errors need to be handled.
